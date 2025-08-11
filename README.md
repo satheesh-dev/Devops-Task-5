@@ -26,6 +26,9 @@ This task demonstrates deploying an Nginx app to a local Kubernetes cluster usin
 ### 5. Application in browser
 <img width="1730" height="585" alt="Screenshot 2025-08-11 120057" src="https://github.com/user-attachments/assets/e637d3b0-b203-4915-ba22-84e081044a28" />
 
+
+
+
 ```bash
 minikube start --driver=docker --memory=2000mb
 kubectl apply -f deployment.yaml
