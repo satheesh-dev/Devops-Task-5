@@ -15,21 +15,17 @@ This task demonstrates deploying an Nginx app to a local Kubernetes cluster usin
 
 ## Screenshots
 ### 1. Pods after scaling
-![Pods after scaling](screenshots/pods.png)
+<img width="1524" height="194" alt="Screenshot 2025-08-11 115646" src="https://github.com/user-attachments/assets/294eff4d-5b51-41ec-91e0-d53d197aa0e9" />
 
 ### 2. Rolling update status
-![Rolling update](screenshots/rolling_update.png)
+<img width="1356" height="281" alt="Screenshot 2025-08-11 115912" src="https://github.com/user-attachments/assets/3d6cbf78-53a5-4034-b80a-f1da61c6117f" />
 
 ### 3. Service details
-![Service details](screenshots/service.png)
-
-### 4. Pod description
-![Pod description](screenshots/pod_describe.png)
+<img width="1429" height="910" alt="Screenshot 2025-08-11 121348" src="https://github.com/user-attachments/assets/b7880994-9279-42dc-a533-6fea0826767f" />
 
 ### 5. Application in browser
-![Nginx welcome page](screenshots/nginx_browser.png)
+<img width="1730" height="585" alt="Screenshot 2025-08-11 120057" src="https://github.com/user-attachments/assets/e637d3b0-b203-4915-ba22-84e081044a28" />
 
-## How to Run Locally
 ```bash
 minikube start --driver=docker --memory=2000mb
 kubectl apply -f deployment.yaml
